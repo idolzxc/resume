@@ -1,0 +1,96 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_container{
+
+    width: 1250px;
+    margin: auto;
+}
+
+
+.profile_container img{
+    width: 250px;
+    height: auto;
+
+    
+}   
+
+.profile_container hr{
+    background-color: brown;
+    width: 350px;
+    border: 0px;
+    
+}
+
+.profile_container{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    gap: 0 30px;
+    background-color: #F8F7F2;
+    border-bottom: 5px solid #AE7E5E;
+}
+.profile_container h2{
+    text-align: center;
+}
+
+.profile_container h1{
+    text-align: center;
+}
+
+.left_details{
+
+    width:auto;
+    height: 700px;
+}
+.contact_info img{
+    width: auto;
+    height: 20px;
+    margin-top: 17px;
+}
+.contact_info p{
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 16px;
+}
+.about{
+    margin-top: 30px;
+}
+.all_details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 300px;
+    margin-top: 40px;
+}
+
+.contact_info{
+    display: flex;
+}
+
+.left_details{
+    width: 300px;
+}
+.about_me{
+    text-align: justify;
+}
+.competences{
+    text-align: justify;
+}
+.comp{
+    margin-top: 30px;
+}
+
+.right_details{
+    width: auto;
+    height: 700px;
+}
+.exp{
+    margin-top: 30px;
+}
