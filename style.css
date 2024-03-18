@@ -93,4 +93,17 @@
 }
 .exp{
     margin-top: 30px;
+    @media screen and ( max-width: 500px){
+    .profile_container{
+        background-color: aqua;
+        flex-direction: column;
+    }
+    .all_details{
+        flex-direction: column;
+    }
+    .right_details{
+        margin-top: -150px;
+        margin-right: 55px;
+    }
+}
 }
